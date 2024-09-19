@@ -1,8 +1,25 @@
-# React + Vite
+# Star Wars Search Service
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based project built using Vite, Ant Design, and the Star Wars API (SWAPI). The app allows users to search, filter, and paginate through a list of planets, characters, and films from the Star Wars universe.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Planets**: Search, filter by name, climate, gravity, and sort columns.
+- **Characters**: Search, filter by name, height, gender, eye color, and sort columns.
+- **Films**: Search, filter by title, director, producer, release date, and sort columns.
+- **Pagination**: All lists support pagination to navigate through large datasets.
+- **Ant Design**: The UI is built with Ant Design components, including tables, pagination, and filtering.
+
+## Run Project in development mode
+npm install
+npm run dev
+http://localhost:5173/
+
+
+## Run Project in production mode
+npm install
+npm run build
+npm run preview
+http://localhost:4173/
+
+
